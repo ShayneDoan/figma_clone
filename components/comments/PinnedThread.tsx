@@ -6,7 +6,7 @@ import { useMemo, useState } from "react";
 import { Thread } from "@liveblocks/react-comments";
 
 import { ThreadMetadata } from "@/liveblocks.config";
-import { ThreadData } from "@liveblocks/client/dist/index.mjs";
+import { ThreadData } from "@liveblocks/client";
 
 type Props = {
   thread: ThreadData<ThreadMetadata>;
